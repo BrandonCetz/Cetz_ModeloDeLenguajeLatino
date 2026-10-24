@@ -248,11 +248,40 @@ public:
         std::fill(datos_.begin(), datos_.end(), 0.0f);
     }
 
-    inline void copiarDe(const Matriz& otra) {
-        if (filas_ == otra.filas_ && columnas_ == otra.columnas_) {
-            std::copy(otra.datos_.begin(), otra.datos_.end(), datos_.begin());
-        } else {
-            *this = otra;
+    // --- MÉTODOS OPTIMIZADOS IN-PLACE ---
+    
+    void sumarInPlace(const Matriz& A) {
+        if (filas_ != A.filas_ || columnas_ != A.columnas_) {
+            throw std::invalid_argument("Dimensiones incompatibles en sumarInPlace.");
+        }
+        size_t total = datos_.size();
+        const float* d2 = A.datos_.data();
+        float* res = datos_.data();
+        #pragma omp parallel for if(total >= 16384) schedule(static)
+        for (size_t i = 0; i < total; ++i) {
+            res[i] += d2[i];
+        }
+    }
+
+    void restarInPlace(const Matriz& A) {
+        if (filas_ != A.filas_ || columnas_ != A.columnas_) {
+            throw std::invalid_argument("Dimensiones incompatibles en restarInPlace.");
+        }
+        size_t total = datos_.size();
+        const float* d2 = A.datos_.data();
+        float* res = datos_.data();
+        #pragma omp parallel for if(total >= 16384) schedule(static)
+        for (size_t i = 0; i < total; ++i) {
+            res[i] -= d2[i];
+        }
+    }
+
+    void multiplicarEscalarInPlace(float escalar) {
+        size_t total = datos_.size();
+        float* res = datos_.data();
+        #pragma omp parallel for if(total >= 16384) schedule(static)
+        for (size_t i = 0; i < total; ++i) {
+            res[i] *= escalar;
         }
     }
 
