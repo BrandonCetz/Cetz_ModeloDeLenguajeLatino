@@ -148,6 +148,19 @@ public:
         return act;
     }
 
+    // Calcula y acumula el gradiente de un lote (batch) de muestras, retornando el Loss promedio del lote
+    float trainBatchStep(const std::vector<Muestra>& batch) {
+        if (batch.empty()) return 0.0f;
+        float lossAcumulada = 0.0f;
+
+        // Procesamos cada muestra del batch
+        for (const auto& muestra : batch) {
+            lossAcumulada += trainStepAcumulativo(muestra.entrada, muestra.objetivo);
+        }
+
+        return lossAcumulada / static_cast<float>(batch.size());
+    }
+
     // Calcula y acumula el gradiente de la secuencia, retornando el Loss promedio
     float trainStepAcumulativo(const std::vector<size_t>& seqEntrada, const std::vector<size_t>& seqObjetivo) {
         size_t seqLen = seqEntrada.size();
