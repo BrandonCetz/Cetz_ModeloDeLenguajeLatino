@@ -1,0 +1,15 @@
+# Code::Blocks temporary files
+*.layout
+*.depend
+obj/
+bin/
+
+# Executables
+*.exe
+
+# Model binaries (heavy files)
+*.bin
+
+# System files
+Thumbs.db
+.DS_Store

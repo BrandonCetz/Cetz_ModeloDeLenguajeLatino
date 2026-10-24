@@ -1,0 +1,2802 @@
+%PDF-1.3
+%‚„œ”
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 32687>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (#pragma once) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (#include <iostream>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (#include <vector>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (#include <string>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (#include <fstream>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (#include <algorithm>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (#include <cmath>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (#include <random>) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (#include "matrix.hpp") Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (#include "capaEmbedding.hpp") Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (#include "PositionalEncoding.hpp") Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (#include "BloqueTransformer.hpp") Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (#include "capaDensa.hpp") Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (#include "FuncionesPerdida.hpp") Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (class ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 209.76 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 218.43 Tm 0 Tr (CetzModelo ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 218.43 Tm 0 Tr ({) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (private) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 229.77 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 241.11 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 232.44 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 241.11 Tm 0 Tr (vocabSize_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 241.11 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 252.45 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 243.78 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 252.45 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 252.45 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 255.12 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 263.79 Tm 0 Tr (maxSeqLen_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 263.79 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 275.13 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 266.46 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 275.13 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 275.13 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 289.13 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.80 Tm 0 Tr (capaEmbedding emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 297.80 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 300.47 156.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 309.14 Tm 0 Tr (PositionalEncoding posEnc_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 309.14 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 320.48 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 320.48 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 82.35 320.48 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 320.48 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 311.81 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 320.48 Tm 0 Tr (BloqueTransformer) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 320.48 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 311.81 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 320.48 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 320.48 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 323.15 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.82 Tm 0 Tr (capaDensa lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 331.82 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 52.35 354.50 Tm 0 Tr (// Motor interno de muestreo estoc·stico) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 365.83 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 357.17 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 365.83 Tm 0 Tr (muestrearToken) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 365.83 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 184.35 365.83 Tm 0 Tr (const ) Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 357.17 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 365.83 Tm 0 Tr (Matriz) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 365.83 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+268.35 357.17 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 365.83 Tm 0 Tr (probas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 316.35 365.83 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+358.35 357.17 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 365.83 Tm 0 Tr (temperatura) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 424.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 436.35 365.83 Tm 0 Tr (int ) Tj  ET Q
+1.000 1.000 1.000 rg
+460.35 357.17 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 460.35 365.83 Tm 0 Tr (topK) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 484.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 496.35 365.83 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+538.35 357.17 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 538.35 365.83 Tm 0 Tr (topP) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 388.51 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 379.84 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 388.51 Tm 0 Tr (n ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 388.51 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+142.35 379.84 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 388.51 Tm 0 Tr (probas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 388.51 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 379.84 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 388.51 Tm 0 Tr (filas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 388.51 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 399.85 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 399.85 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 399.85 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 399.85 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 148.35 399.85 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 399.85 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 178.35 399.85 Tm 0 Tr (pair) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 399.85 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 208.35 399.85 Tm 0 Tr (double) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 399.85 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 256.35 399.85 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 399.85 Tm 0 Tr (>> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+310.35 391.18 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 399.85 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 399.85 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 422.53 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 413.86 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 422.53 Tm 0 Tr (suma ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 422.53 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 160.35 422.53 Tm 0 Tr (0.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 422.53 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 433.87 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 433.87 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 433.87 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 433.87 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 148.35 433.87 Tm 0 Tr (double) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 433.87 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 425.20 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 433.87 Tm 0 Tr (pAjustadas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 433.87 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 425.20 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 433.87 Tm 0 Tr (n) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 433.87 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 445.20 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 445.20 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 445.20 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 436.54 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 445.20 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 445.20 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 445.20 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 436.54 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 445.20 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 445.20 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 436.54 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 445.20 Tm 0 Tr (n) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 445.20 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 436.54 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 445.20 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 445.20 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 456.54 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 447.87 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 456.54 Tm 0 Tr (p ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 456.54 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 166.35 456.54 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 456.54 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 447.87 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 456.54 Tm 0 Tr (pow) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 456.54 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 447.87 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 456.54 Tm 0 Tr (probas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 456.54 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 447.87 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 456.54 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 280.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 456.54 Tm 0 Tr (\), ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 456.54 Tm 0 Tr (1.0 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 456.54 Tm 0 Tr (/ ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 340.35 456.54 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 456.54 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 370.35 456.54 Tm 0 Tr (max) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 388.35 456.54 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+394.35 447.87 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 394.35 456.54 Tm 0 Tr (temperatura) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 460.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 472.35 456.54 Tm 0 Tr (1e-5) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.35 456.54 Tm 0 Tr (\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 459.21 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 467.88 Tm 0 Tr (pAjustadas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 467.88 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+166.35 459.21 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 467.88 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 467.88 Tm 0 Tr (] = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 459.21 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 467.88 Tm 0 Tr (p) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 467.88 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 470.55 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 479.22 Tm 0 Tr (suma ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 479.22 Tm 0 Tr (+= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+148.35 470.55 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 479.22 Tm 0 Tr (p) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 479.22 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 513.24 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 513.24 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 504.57 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 513.24 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 513.24 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 513.24 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 504.57 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 513.24 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 513.24 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 504.57 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 513.24 Tm 0 Tr (n) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 513.24 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 504.57 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 513.24 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 513.24 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 515.91 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 524.57 Tm 0 Tr (pAjustadas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 524.57 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+166.35 515.91 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 524.57 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 524.57 Tm 0 Tr (] /= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 515.91 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 524.57 Tm 0 Tr (suma) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 524.57 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 527.24 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 535.91 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 535.91 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 136.35 535.91 Tm 0 Tr (push_back) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 535.91 Tm 0 Tr (\({) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 527.24 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 535.91 Tm 0 Tr (pAjustadas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 535.91 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+268.35 527.24 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 535.91 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 535.91 Tm 0 Tr (], ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 527.24 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 535.91 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 535.91 Tm 0 Tr (}\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 569.93 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 569.93 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 569.93 Tm 0 Tr (sort) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 569.93 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 561.26 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 569.93 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 569.93 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 172.35 569.93 Tm 0 Tr (rbegin) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 569.93 Tm 0 Tr (\(\), ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 561.26 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 569.93 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 569.93 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 268.35 569.93 Tm 0 Tr (rend) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 569.93 Tm 0 Tr (\(\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 592.61 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 592.61 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 583.94 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 592.61 Tm 0 Tr (topK ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 592.61 Tm 0 Tr (> ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 592.61 Tm 0 Tr (0 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 592.61 Tm 0 Tr (&& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 172.35 592.61 Tm 0 Tr (static_cast) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 592.61 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 592.61 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 592.61 Tm 0 Tr (>\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 583.94 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 592.61 Tm 0 Tr (topK) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 592.61 Tm 0 Tr (\) < ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+340.35 583.94 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 592.61 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 592.61 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 376.35 592.61 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 592.61 Tm 0 Tr (\(\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 595.28 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 603.94 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 603.94 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 136.35 603.94 Tm 0 Tr (resize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 603.94 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 595.28 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 603.94 Tm 0 Tr (topK) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 603.94 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 637.96 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 637.96 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 629.29 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 637.96 Tm 0 Tr (topP ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 637.96 Tm 0 Tr (< ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 637.96 Tm 0 Tr (1.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 637.96 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 649.30 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 640.63 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 649.30 Tm 0 Tr (acum ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 649.30 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 649.30 Tm 0 Tr (0.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 649.30 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 660.64 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 651.97 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 660.64 Tm 0 Tr (corte ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 660.64 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 651.97 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 660.64 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 660.64 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 226.35 660.64 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 660.64 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 671.98 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 671.98 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 671.98 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 663.31 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 671.98 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 671.98 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 671.98 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 671.98 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 663.31 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 671.98 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 671.98 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 663.31 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 671.98 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 671.98 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 274.35 671.98 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 671.98 Tm 0 Tr (\(\); ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+334.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 671.98 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 671.98 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 674.65 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 683.31 Tm 0 Tr (acum ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 683.31 Tm 0 Tr (+= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 674.65 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 683.31 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 683.31 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 674.65 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 683.31 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 683.31 Tm 0 Tr (].) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+226.35 674.65 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 683.31 Tm 0 Tr (first) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 683.31 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 694.65 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 694.65 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+148.35 685.98 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 694.65 Tm 0 Tr (acum ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 694.65 Tm 0 Tr (>= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 685.98 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 694.65 Tm 0 Tr (topP) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 694.65 Tm 0 Tr (\) { ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 685.98 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 694.65 Tm 0 Tr (corte ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 694.65 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 685.98 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 694.65 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 694.65 Tm 0 Tr (+ ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 316.35 694.65 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 694.65 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 334.35 694.65 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 694.65 Tm 0 Tr (; }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (            }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 708.66 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 717.33 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 717.33 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 136.35 717.33 Tm 0 Tr (resize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 717.33 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 708.66 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 717.33 Tm 0 Tr (corte) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 717.33 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 751.35 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 742.68 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 751.35 Tm 0 Tr (sumaFiltrada ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 751.35 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 751.35 Tm 0 Tr (0.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 751.35 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 762.69 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 762.69 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 762.69 Tm 0 Tr (const auto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 762.69 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 754.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 762.69 Tm 0 Tr (item ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 762.69 Tm 0 Tr (: ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 754.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 762.69 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 762.69 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 754.02 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 762.69 Tm 0 Tr (sumaFiltrada ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 762.69 Tm 0 Tr (+= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+358.35 754.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 762.69 Tm 0 Tr (item) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 762.69 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+388.35 754.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 388.35 762.69 Tm 0 Tr (first) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 762.69 Tm 0 Tr (;) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 42633>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 37.02 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 37.02 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 37.02 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 37.02 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 148.35 37.02 Tm 0 Tr (double) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 37.02 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 28.35 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 37.02 Tm 0 Tr (probasFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 37.02 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 48.35 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 48.35 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 48.35 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 48.35 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 148.35 48.35 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 48.35 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 39.69 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 48.35 Tm 0 Tr (indicesFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 48.35 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 59.69 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 59.69 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 59.69 Tm 0 Tr (const auto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 59.69 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 51.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 59.69 Tm 0 Tr (item ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 59.69 Tm 0 Tr (: ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 51.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 59.69 Tm 0 Tr (items) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 59.69 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 62.36 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 71.03 Tm 0 Tr (probasFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 71.03 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 184.35 71.03 Tm 0 Tr (push_back) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 71.03 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 62.36 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 71.03 Tm 0 Tr (item) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 71.03 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+274.35 62.36 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 71.03 Tm 0 Tr (first ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 71.03 Tm 0 Tr (/ ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+322.35 62.36 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 322.35 71.03 Tm 0 Tr (sumaFiltrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 71.03 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 73.70 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 82.37 Tm 0 Tr (indicesFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 82.37 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 190.35 82.37 Tm 0 Tr (push_back) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 82.37 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 73.70 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 82.37 Tm 0 Tr (item) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 82.37 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+280.35 73.70 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 82.37 Tm 0 Tr (second) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 82.37 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 116.39 Tm 0 Tr (static ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 118.35 116.39 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 116.39 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 148.35 116.39 Tm 0 Tr (random_device ) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 107.72 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 116.39 Tm 0 Tr (rd) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 116.39 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 127.72 Tm 0 Tr (static ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 118.35 127.72 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 127.72 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 148.35 127.72 Tm 0 Tr (mt19937 ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 119.06 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 127.72 Tm 0 Tr (gen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 127.72 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 119.06 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 127.72 Tm 0 Tr (rd) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 127.72 Tm 0 Tr (\(\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 139.06 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 139.06 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 139.06 Tm 0 Tr (discrete_distribution) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 139.06 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 238.35 139.06 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 139.06 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+286.35 130.39 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 139.06 Tm 0 Tr (dist) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 139.06 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+316.35 130.39 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 139.06 Tm 0 Tr (probasFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 139.06 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 400.35 139.06 Tm 0 Tr (begin) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 139.06 Tm 0 Tr (\(\), ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+454.35 130.39 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 454.35 139.06 Tm 0 Tr (probasFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 532.35 139.06 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 538.35 139.06 Tm 0 Tr (end) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (\(\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 173.08 Tm 0 Tr (return ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 164.41 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 173.08 Tm 0 Tr (indicesFinales) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 173.08 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 164.41 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 173.08 Tm 0 Tr (dist) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 173.08 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 164.41 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 173.08 Tm 0 Tr (gen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 173.08 Tm 0 Tr (\)];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (    }) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 207.09 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 209.76 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 218.43 Tm 0 Tr (CetzModelo) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 218.43 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 118.35 218.43 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 209.76 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 218.43 Tm 0 Tr (vocabSize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 226.35 218.43 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 209.76 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 218.43 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 328.35 218.43 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+370.35 209.76 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 370.35 218.43 Tm 0 Tr (numHeads) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 430.35 218.43 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+472.35 209.76 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 472.35 218.43 Tm 0 Tr (dimFFN) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 508.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 520.35 218.43 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 221.10 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (numBloques) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 229.77 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 229.77 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 221.10 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 229.77 Tm 0 Tr (maxSeqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 229.77 Tm 0 Tr (\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (        : ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 232.44 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 241.11 Tm 0 Tr (vocabSize_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 241.11 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 232.44 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 241.11 Tm 0 Tr (vocabSize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 241.11 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 243.78 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 252.45 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 252.45 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+148.35 243.78 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 252.45 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 252.45 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 255.12 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 263.79 Tm 0 Tr (maxSeqLen_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 263.79 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 255.12 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 263.79 Tm 0 Tr (maxSeqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 263.79 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 266.46 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 275.13 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 275.13 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+160.35 266.46 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 275.13 Tm 0 Tr (numBloques) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 275.13 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 277.80 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 286.46 Tm 0 Tr (emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 286.46 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 277.80 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 286.46 Tm 0 Tr (vocabSize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 286.46 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 277.80 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 286.46 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 286.46 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 289.13 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 297.80 Tm 0 Tr (posEnc_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 297.80 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 289.13 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 297.80 Tm 0 Tr (maxSeqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 297.80 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 289.13 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 297.80 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 297.80 Tm 0 Tr (\),) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 300.47 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 309.14 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 309.14 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 300.47 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 309.14 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 309.14 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 300.47 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 309.14 Tm 0 Tr (vocabSize) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 309.14 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 300.47 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 309.14 Tm 0 Tr (sigmoide) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 309.14 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+322.35 300.47 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 322.35 309.14 Tm 0 Tr (derivadaSigmoide) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 309.14 Tm 0 Tr (\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (    {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 323.15 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 331.82 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 331.82 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 323.15 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 331.82 Tm 0 Tr (usarSoftmax) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 331.82 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 343.16 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 343.16 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 343.16 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 334.49 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 343.16 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 343.16 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 343.16 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 343.16 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 334.49 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 343.16 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 343.16 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 334.49 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 343.16 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 343.16 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 334.49 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 343.16 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 343.16 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 345.83 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 354.50 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 354.50 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 345.83 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 354.50 Tm 0 Tr (emplace_back) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 354.50 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 345.83 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 354.50 Tm 0 Tr (dimModel) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 354.50 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 345.83 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 354.50 Tm 0 Tr (numHeads) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 354.50 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+352.35 345.83 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 354.50 Tm 0 Tr (dimFFN) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 388.35 354.50 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (    ~) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 379.84 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.51 Tm 0 Tr (CetzModelo) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 388.51 Tm 0 Tr (\(\){) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 52.35 422.53 Tm 0 Tr (// Forward Pass completo a travÈs de toda la profundidad de la red) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 425.20 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.87 Tm 0 Tr (Matriz ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 94.35 433.87 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 433.87 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 142.35 433.87 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 178.35 433.87 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 433.87 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 208.35 433.87 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 433.87 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 250.35 433.87 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 433.87 Tm 0 Tr (>& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 425.20 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 433.87 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 433.87 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 445.20 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 436.54 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 445.20 Tm 0 Tr (seqLen ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 445.20 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 436.54 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 445.20 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 445.20 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 238.35 445.20 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 445.20 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 447.87 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 456.54 Tm 0 Tr (Matriz X) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 456.54 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 447.87 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 456.54 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 447.87 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 456.54 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 456.54 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 479.22 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 479.22 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 479.22 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 470.55 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 479.22 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 479.22 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 479.22 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 470.55 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 479.22 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 479.22 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 470.55 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 479.22 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 479.22 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+298.35 470.55 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.35 479.22 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 479.22 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 481.89 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 490.56 Tm 0 Tr (Matriz vEmb ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 490.56 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 481.89 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 490.56 Tm 0 Tr (emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 490.56 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 214.35 490.56 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 490.56 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 481.89 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 490.56 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 490.56 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+328.35 481.89 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 328.35 490.56 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 490.56 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 493.23 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 501.90 Tm 0 Tr (Matriz vPos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 501.90 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 493.23 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 501.90 Tm 0 Tr (posEnc_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 501.90 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 493.23 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 501.90 Tm 0 Tr (obtenerPosicion) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 501.90 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+328.35 493.23 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 328.35 501.90 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 501.90 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 504.57 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 513.24 Tm 0 Tr (Matriz vFinal ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 513.24 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 504.57 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 513.24 Tm 0 Tr (vEmb ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 513.24 Tm 0 Tr (+ ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 504.57 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 513.24 Tm 0 Tr (vPos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 513.24 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 524.57 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 524.57 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 524.57 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 515.91 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 524.57 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 524.57 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 515.91 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 524.57 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 524.57 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 515.91 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 524.57 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 524.57 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+316.35 515.91 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 524.57 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 524.57 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 527.24 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 535.91 Tm 0 Tr (X) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 535.91 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 527.24 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 535.91 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 527.24 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 535.91 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 535.91 Tm 0 Tr (\) = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 527.24 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 535.91 Tm 0 Tr (vFinal) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 535.91 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 527.24 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 535.91 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 535.91 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (            }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 572.60 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 581.27 Tm 0 Tr (Matriz act ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 581.27 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 572.60 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 581.27 Tm 0 Tr (X) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 581.27 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 592.61 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 592.61 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 592.61 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 583.94 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 592.61 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 592.61 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 592.61 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 592.61 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 583.94 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 592.61 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 592.61 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 583.94 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 592.61 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 592.61 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 583.94 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 592.61 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 592.61 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 595.28 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 603.94 Tm 0 Tr (act ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 603.94 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 595.28 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 603.94 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 603.94 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 595.28 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 603.94 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 603.94 Tm 0 Tr (].) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 208.35 603.94 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 603.94 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 595.28 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 603.94 Tm 0 Tr (act) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 603.94 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 637.96 Tm 0 Tr (return ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 629.29 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 637.96 Tm 0 Tr (act) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 637.96 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 52.35 671.98 Tm 0 Tr (// Paso de entrenamiento individual \(Forward + Loss + Backward\)) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 683.31 Tm 0 Tr (void ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 674.65 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 683.31 Tm 0 Tr (trainStep) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 683.31 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 142.35 683.31 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 178.35 683.31 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 683.31 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 208.35 683.31 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 683.31 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 250.35 683.31 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 683.31 Tm 0 Tr (>& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 674.65 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 683.31 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 683.31 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 376.35 683.31 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 412.35 683.31 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 683.31 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 442.35 683.31 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 478.35 683.31 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 484.35 683.31 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 520.35 683.31 Tm 0 Tr (>& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+28.35 685.98 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (seqObjetivo) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 694.65 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 694.65 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 685.98 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 694.65 Tm 0 Tr (lr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 694.65 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 172.35 694.65 Tm 0 Tr (int) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 694.65 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 685.98 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 694.65 Tm 0 Tr (t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 694.65 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 705.99 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 697.32 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 705.99 Tm 0 Tr (seqLen ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 705.99 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 697.32 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 705.99 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 705.99 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 238.35 705.99 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 705.99 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 728.67 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 728.67 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 728.67 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 728.67 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+148.35 720.00 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 728.67 Tm 0 Tr (Matriz) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 728.67 Tm 0 Tr (> ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 720.00 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 728.67 Tm 0 Tr (objetivosOneHot) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 728.67 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 740.01 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 740.01 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 740.01 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 731.34 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 740.01 Tm 0 Tr (targetId ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 740.01 Tm 0 Tr (: ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 731.34 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 740.01 Tm 0 Tr (seqObjetivo) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 740.01 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 742.68 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 751.35 Tm 0 Tr (Matriz target) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 751.35 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 742.68 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 751.35 Tm 0 Tr (vocabSize_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 751.35 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 274.35 751.35 Tm 0 Tr (0.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 751.35 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 754.02 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 762.69 Tm 0 Tr (target) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 762.69 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+142.35 754.02 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 762.69 Tm 0 Tr (targetId) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 762.69 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 202.35 762.69 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 762.69 Tm 0 Tr (\) = ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 232.35 762.69 Tm 0 Tr (1.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 762.69 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 765.35 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 774.02 Tm 0 Tr (objetivosOneHot) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 774.02 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 196.35 774.02 Tm 0 Tr (push_back) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 774.02 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 765.35 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 774.02 Tm 0 Tr (target) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 774.02 Tm 0 Tr (\);) Tj  ET Q
+Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 42133>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 76.35 59.69 Tm 0 Tr (// 1. Forward Pass) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 62.36 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 71.03 Tm 0 Tr (Matriz act ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 71.03 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 154.35 71.03 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 71.03 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 62.36 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 71.03 Tm 0 Tr (seqEntrada) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 71.03 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 76.35 93.71 Tm 0 Tr (// 2. Backward Pass LM Head & Cross Entropy Loss) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 96.38 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 105.05 Tm 0 Tr (Matriz gradActual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 105.05 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 96.38 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 105.05 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 105.05 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 96.38 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 105.05 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 105.05 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 298.35 105.05 Tm 0 Tr (0.0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 105.05 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 116.39 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 116.39 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 116.39 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 107.72 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 116.39 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 116.39 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 116.39 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 116.39 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 107.72 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 116.39 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 116.39 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 107.72 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 116.39 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 116.39 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+298.35 107.72 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.35 116.39 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 116.39 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 119.06 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 127.72 Tm 0 Tr (Matriz tokenContextual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 127.72 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 119.06 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 127.72 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 127.72 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 127.72 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 127.72 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 139.06 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 139.06 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 139.06 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 130.39 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 139.06 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 139.06 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 139.06 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 139.06 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 130.39 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 139.06 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 139.06 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 130.39 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 139.06 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 139.06 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+316.35 130.39 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 139.06 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 139.06 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 141.73 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (tokenContextual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 150.40 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 141.73 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 150.40 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 150.40 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 150.40 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 150.40 Tm 0 Tr (\) = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+268.35 141.73 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 150.40 Tm 0 Tr (act) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 150.40 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 141.73 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 150.40 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 150.40 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+310.35 141.73 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 150.40 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 150.40 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (            }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 175.75 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 184.42 Tm 0 Tr (Matriz pred ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 184.42 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 175.75 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 184.42 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 184.42 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 232.35 184.42 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 184.42 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+280.35 175.75 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 184.42 Tm 0 Tr (tokenContextual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 184.42 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 187.09 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 195.76 Tm 0 Tr (Matriz gradCross ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 195.76 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 187.09 126.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 195.76 Tm 0 Tr (gradienteCrossEntropy) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 195.76 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+346.35 187.09 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 195.76 Tm 0 Tr (pred) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 195.76 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+382.35 187.09 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 382.35 195.76 Tm 0 Tr (objetivosOneHot) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 472.35 195.76 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+478.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 478.35 195.76 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 496.35 195.76 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 209.76 126.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 218.43 Tm 0 Tr (Matriz gradBackToken ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 218.43 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 209.76 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 218.43 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 218.43 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+286.35 209.76 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 218.43 Tm 0 Tr (backward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 218.43 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+340.35 209.76 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 218.43 Tm 0 Tr (gradCross) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+406.35 209.76 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 406.35 218.43 Tm 0 Tr (lr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 218.43 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+430.35 209.76 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 430.35 218.43 Tm 0 Tr (t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 436.35 218.43 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 229.77 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 229.77 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 229.77 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 221.10 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 229.77 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 229.77 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 229.77 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 229.77 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 221.10 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 229.77 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 229.77 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 221.10 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 229.77 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 229.77 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+316.35 221.10 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 229.77 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 229.77 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 232.44 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 241.11 Tm 0 Tr (gradActual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 241.11 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 232.44 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 241.11 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 232.44 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 241.11 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 241.11 Tm 0 Tr (\) = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 232.44 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 241.11 Tm 0 Tr (gradBackToken) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 241.11 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+334.35 232.44 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 241.11 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 352.35 241.11 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 241.11 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (            }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 76.35 286.46 Tm 0 Tr (// 3. Backward Pass a travÈs de los Bloques Transformer) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 297.80 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 297.80 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 297.80 Tm 0 Tr (int ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 289.13 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 297.80 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 297.80 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 297.80 Tm 0 Tr (static_cast) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 297.80 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 226.35 297.80 Tm 0 Tr (int) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 297.80 Tm 0 Tr (>\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 289.13 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 297.80 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 297.80 Tm 0 Tr (\) - ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 346.35 297.80 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 297.80 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+364.35 289.13 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.35 297.80 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 376.35 297.80 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 394.35 297.80 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 297.80 Tm 0 Tr (; --) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+424.35 289.13 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 424.35 297.80 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 297.80 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 300.47 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 309.14 Tm 0 Tr (gradActual ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 309.14 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 300.47 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 309.14 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 309.14 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 300.47 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 309.14 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 309.14 Tm 0 Tr (].) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 300.47 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 309.14 Tm 0 Tr (backward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 309.14 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 300.47 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 309.14 Tm 0 Tr (gradActual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 309.14 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+376.35 300.47 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 376.35 309.14 Tm 0 Tr (lr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 388.35 309.14 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+400.35 300.47 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 400.35 309.14 Tm 0 Tr (t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 309.14 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 76.35 343.16 Tm 0 Tr (// 4. Backward Pass a travÈs de Embeddings) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 354.50 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 354.50 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 354.50 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 345.83 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 354.50 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 354.50 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 354.50 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 354.50 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 345.83 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 354.50 Tm 0 Tr (pos ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 354.50 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 345.83 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 354.50 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 354.50 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+298.35 345.83 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.35 354.50 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 354.50 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 357.17 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 365.83 Tm 0 Tr (Matriz gradEmb) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 365.83 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 357.17 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 365.83 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 365.83 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 365.83 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 377.17 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 377.17 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 377.17 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 368.50 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 377.17 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 377.17 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 196.35 377.17 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 377.17 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 368.50 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 377.17 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 377.17 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 368.50 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 377.17 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 377.17 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+316.35 368.50 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 377.17 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 377.17 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 379.84 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 388.51 Tm 0 Tr (gradEmb) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 388.51 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 379.84 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 388.51 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 388.51 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 388.51 Tm 0 Tr (\) = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 379.84 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 388.51 Tm 0 Tr (gradActual) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 388.51 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+286.35 379.84 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 388.51 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 379.84 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 388.51 Tm 0 Tr (pos) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 388.51 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (            }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 411.19 Tm 0 Tr (emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 411.19 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 402.52 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 411.19 Tm 0 Tr (backward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 411.19 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 402.52 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 411.19 Tm 0 Tr (gradEmb) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 411.19 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 402.52 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 411.19 Tm 0 Tr (lr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 411.19 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 402.52 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 411.19 Tm 0 Tr (t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 411.19 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 436.54 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 445.20 Tm 0 Tr (t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 445.20 Tm 0 Tr (++;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 52.35 479.22 Tm 0 Tr (// Inferencia y predicciÛn del siguiente token) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (    // Inferencia con PenalizaciÛn de RepeticiÛn \(evita bucles infinitos\)) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 501.90 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 493.23 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 501.90 Tm 0 Tr (predecirSiguiente) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 501.90 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 202.35 501.90 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 238.35 501.90 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 501.90 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 268.35 501.90 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 501.90 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 310.35 501.90 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 501.90 Tm 0 Tr (>& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+364.35 493.23 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.35 501.90 Tm 0 Tr (contexto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 412.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 424.35 501.90 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+466.35 493.23 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 466.35 501.90 Tm 0 Tr (temperatura) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 532.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 544.35 501.90 Tm 0 Tr (int) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 504.57 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (topK) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 513.24 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 504.57 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (topP) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 142.35 513.24 Tm 0 Tr (double ) Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 504.57 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 513.24 Tm 0 Tr (repetitionPenalty ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 513.24 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 513.24 Tm 0 Tr (1.3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 513.24 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 524.57 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 515.91 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 524.57 Tm 0 Tr (seqLen ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 515.91 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 524.57 Tm 0 Tr (contexto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 524.57 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 226.35 524.57 Tm 0 Tr (size) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 524.57 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 527.24 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 535.91 Tm 0 Tr (Matriz act ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 535.91 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 154.35 535.91 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 535.91 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 527.24 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 535.91 Tm 0 Tr (contexto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 535.91 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 549.92 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 558.59 Tm 0 Tr (Matriz ultimoVec) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 558.59 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 549.92 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 558.59 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 558.59 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 558.59 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 558.59 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 569.93 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 569.93 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 569.93 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 561.26 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 569.93 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 569.93 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 569.93 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 569.93 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 561.26 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 569.93 Tm 0 Tr (d ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 569.93 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 561.26 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 569.93 Tm 0 Tr (dimModel_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 569.93 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 569.93 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 569.93 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 572.60 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 581.27 Tm 0 Tr (ultimoVec) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 581.27 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+160.35 572.60 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 581.27 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 581.27 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 178.35 581.27 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 581.27 Tm 0 Tr (\) = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 572.60 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 581.27 Tm 0 Tr (act) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 581.27 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 572.60 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 581.27 Tm 0 Tr (d) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 581.27 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 572.60 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 581.27 Tm 0 Tr (seqLen ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 581.27 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 581.27 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 581.27 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 606.61 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 615.28 Tm 0 Tr (Matriz pred ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 615.28 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+160.35 606.61 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 615.28 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 615.28 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 208.35 615.28 Tm 0 Tr (forward) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 615.28 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 606.61 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 615.28 Tm 0 Tr (ultimoVec) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 615.28 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 76.35 637.96 Tm 0 Tr (// Aplicar penalizaciÛn a los ˙ltimos 10 tokens del contexto) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 649.30 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 640.63 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 649.30 Tm 0 Tr (ventanaHistorial ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 649.30 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 232.35 649.30 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 649.30 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 262.35 649.30 Tm 0 Tr (min) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 649.30 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+286.35 640.63 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 649.30 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 649.30 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 334.35 649.30 Tm 0 Tr (static_cast) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 649.30 Tm 0 Tr (<) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 406.35 649.30 Tm 0 Tr (size_t) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 442.35 649.30 Tm 0 Tr (>\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 454.35 649.30 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 466.35 649.30 Tm 0 Tr (\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 660.64 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 660.64 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 660.64 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 651.97 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 660.64 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 660.64 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 651.97 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 660.64 Tm 0 Tr (seqLen ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 660.64 Tm 0 Tr (- ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+226.35 651.97 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 660.64 Tm 0 Tr (ventanaHistorial) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 660.64 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+334.35 651.97 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 660.64 Tm 0 Tr (i ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 660.64 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+358.35 651.97 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 660.64 Tm 0 Tr (seqLen) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 660.64 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+418.35 651.97 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 418.35 660.64 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 424.35 660.64 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 671.98 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 663.31 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 671.98 Tm 0 Tr (idRepetido ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 671.98 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+220.35 663.31 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 671.98 Tm 0 Tr (contexto) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 671.98 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+274.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 671.98 Tm 0 Tr (i) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 671.98 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 683.31 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 683.31 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 674.65 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 683.31 Tm 0 Tr (idRepetido ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 683.31 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 674.65 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 683.31 Tm 0 Tr (pred) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 683.31 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+232.35 674.65 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 683.31 Tm 0 Tr (filas) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 683.31 Tm 0 Tr (\(\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 685.98 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 694.65 Tm 0 Tr (pred) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 694.65 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 685.98 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 694.65 Tm 0 Tr (idRepetido) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 694.65 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 694.65 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 694.65 Tm 0 Tr (\) /= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 685.98 102.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 694.65 Tm 0 Tr (repetitionPenalty) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 694.65 Tm 0 Tr (; ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 376.35 694.65 Tm 0 Tr (// Reduce la probabilidad de) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (repetir) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 717.33 Tm 0 Tr (}) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 751.35 Tm 0 Tr (return ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 742.68 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 751.35 Tm 0 Tr (muestrearToken) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 751.35 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 742.68 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 751.35 Tm 0 Tr (pred) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 742.68 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 751.35 Tm 0 Tr (temperatura) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+322.35 742.68 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 322.35 751.35 Tm 0 Tr (topK) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+358.35 742.68 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 751.35 Tm 0 Tr (topP) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 751.35 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (    }) Tj  ET Q
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 17215>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 52.35 37.02 Tm 0 Tr (// MÈtodos de Persistencia) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (bool ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 39.69 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 48.35 Tm 0 Tr (guardar) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 48.35 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 48.35 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 166.35 48.35 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 48.35 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 196.35 48.35 Tm 0 Tr (string) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 48.35 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 39.69 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 48.35 Tm 0 Tr (ruta) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 48.35 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 280.35 48.35 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 48.35 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 59.69 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 59.69 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 59.69 Tm 0 Tr (ofstream ) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 51.02 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 59.69 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 59.69 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+184.35 51.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 59.69 Tm 0 Tr (ruta) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 59.69 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 220.35 59.69 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 59.69 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+250.35 51.02 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 59.69 Tm 0 Tr (ios) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 59.69 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+280.35 51.02 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 59.69 Tm 0 Tr (binary) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 59.69 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 71.03 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 71.03 Tm 0 Tr (\(!) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 62.36 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 71.03 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 71.03 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 62.36 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 71.03 Tm 0 Tr (is_open) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 71.03 Tm 0 Tr (\(\)\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 71.03 Tm 0 Tr (return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 71.03 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 73.70 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 82.37 Tm 0 Tr (emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 82.37 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 73.70 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 82.37 Tm 0 Tr (guardarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 82.37 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 73.70 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 82.37 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 82.37 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 93.71 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 93.71 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 93.71 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 85.04 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 93.71 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 93.71 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 93.71 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 93.71 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 85.04 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 93.71 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 93.71 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 85.04 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 93.71 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 93.71 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 85.04 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 93.71 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 93.71 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 96.38 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 105.05 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 105.05 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 96.38 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 105.05 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 105.05 Tm 0 Tr (].) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 96.38 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 105.05 Tm 0 Tr (guardarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 105.05 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+262.35 96.38 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 105.05 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 105.05 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 119.06 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 127.72 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 127.72 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 119.06 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 127.72 Tm 0 Tr (guardarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 127.72 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 119.06 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 127.72 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 127.72 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 130.39 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 139.06 Tm 0 Tr (out) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 139.06 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 130.39 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 139.06 Tm 0 Tr (close) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 139.06 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 150.40 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 150.40 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 184.42 Tm 0 Tr (bool ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 175.75 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 184.42 Tm 0 Tr (cargar) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 184.42 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 184.42 Tm 0 Tr (const ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 160.35 184.42 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 184.42 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 190.35 184.42 Tm 0 Tr (string) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 184.42 Tm 0 Tr (& ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+238.35 175.75 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 184.42 Tm 0 Tr (ruta) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 184.42 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 195.76 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 195.76 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 106.35 195.76 Tm 0 Tr (ifstream ) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 187.09 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 195.76 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 195.76 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 187.09 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 195.76 Tm 0 Tr (ruta) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 195.76 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 214.35 195.76 Tm 0 Tr (std) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 195.76 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 195.76 Tm 0 Tr (ios) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 195.76 Tm 0 Tr (::) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+274.35 187.09 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 195.76 Tm 0 Tr (binary) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 195.76 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 207.09 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 207.09 Tm 0 Tr (\(!) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 198.43 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 207.09 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 207.09 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 198.43 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 207.09 Tm 0 Tr (is_open) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 207.09 Tm 0 Tr (\(\)\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 190.35 207.09 Tm 0 Tr (return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 207.09 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 209.76 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 218.43 Tm 0 Tr (emb_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 218.43 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 209.76 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 218.43 Tm 0 Tr (cargarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 218.43 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 209.76 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 218.43 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 218.43 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 229.77 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 229.77 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 229.77 Tm 0 Tr (size_t ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 221.10 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 229.77 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 229.77 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 229.77 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 229.77 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 221.10 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 229.77 Tm 0 Tr (b ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 229.77 Tm 0 Tr (< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+214.35 221.10 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 229.77 Tm 0 Tr (numBloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 229.77 Tm 0 Tr (; ++) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+304.35 221.10 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 229.77 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 229.77 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 232.44 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 241.11 Tm 0 Tr (bloques_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 241.11 Tm 0 Tr ([) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 232.44 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 241.11 Tm 0 Tr (b) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 241.11 Tm 0 Tr (].) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+172.35 232.44 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 241.11 Tm 0 Tr (cargarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 241.11 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 232.44 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 241.11 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 241.11 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 255.12 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 263.79 Tm 0 Tr (lmHead_) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 263.79 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 255.12 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 263.79 Tm 0 Tr (cargarBinario) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 263.79 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+208.35 255.12 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 263.79 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 263.79 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 266.46 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 275.13 Tm 0 Tr (in) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 275.13 Tm 0 Tr (.) Tj  ET Q
+BT /F2 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 266.46 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 275.13 Tm 0 Tr (close) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 275.13 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 286.46 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 286.46 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (};) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 11 0 R
+/F1 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Names []
+>>
+endobj
+14 0 obj
+<<
+/Producer (˛ˇ w x P d f D o c u m e n t   1 . 1 . 0)
+/CreationDate (D:20261023040605Z)
+>>
+endobj
+15 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000135245 00000 n 
+0000135547 00000 n 
+0000000015 00000 n 
+0000000104 00000 n 
+0000032842 00000 n 
+0000032931 00000 n 
+0000075615 00000 n 
+0000075704 00000 n 
+0000117888 00000 n 
+0000117978 00000 n 
+0000135352 00000 n 
+0000135452 00000 n 
+0000135663 00000 n 
+0000135695 00000 n 
+0000135804 00000 n 
+trailer
+<<
+/Size 16
+/Root 15 0 R
+/Info 14 0 R
+>>
+startxref
+135908
+%%EOF
