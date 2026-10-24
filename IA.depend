@@ -1,0 +1,195 @@
+# depslib dependency file v1.0
+1792741666 source:d:\programacion\ia\ia\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"RedNeuronal.hpp"
+	"matrix.hpp"
+	"capaDensa.hpp"
+
+1792738557 d:\programacion\ia\ia\matrix.hpp
+	<iostream>
+	<vector>
+	<random>
+	<stdexcept>
+	<iomanip>
+	<cmath>
+	<functional>
+	<fstream>
+
+1792738557 d:\programacion\ia\ia\capadensa.hpp
+	<iostream>
+	<functional>
+	<cmath>
+	"matrix.hpp"
+
+1792738557 d:\programacion\ia\ia\redneuronal.hpp
+	"capaDensa.hpp"
+	"matrix.hpp"
+	<vector>
+	<functional>
+	"FuncionesPerdida.hpp"
+
+1792715249 d:\programacion\ia\ia\funcionesperdida.hpp
+	"matrix.hpp"
+	<cmath>
+	<algorithm>
+
+1792742656 source:d:\programacion\ia\ia-adam\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"RedNeuronal.hpp"
+	"matrix.hpp"
+	"capaDensa.hpp"
+
+1792742431 d:\programacion\ia\ia-adam\redneuronal.hpp
+	"capaDensa.hpp"
+	"matrix.hpp"
+	<vector>
+	<functional>
+	"FuncionesPerdida.hpp"
+
+1792743563 d:\programacion\ia\ia-adam\capadensa.hpp
+	<iostream>
+	<functional>
+	<cmath>
+	"matrix.hpp"
+
+1792743352 d:\programacion\ia\ia-adam\matrix.hpp
+	<iostream>
+	<vector>
+	<random>
+	<stdexcept>
+	<iomanip>
+	<cmath>
+	<functional>
+	<fstream>
+
+1792743673 d:\programacion\ia\ia-adam\funcionesperdida.hpp
+	"matrix.hpp"
+	<cmath>
+	<algorithm>
+
+1792836262 source:d:\programacion\ia\ia-adam-llm\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<memory>
+	<iomanip>
+	<cmath>
+	<windows.h>
+	"PlanificadorTasaAprendizaje.hpp"
+	"TokenizadorSubPalabras.hpp"
+	"CetzModelo.hpp"
+
+1792742431 d:\programacion\ia\ia-adam-llm\redneuronal.hpp
+	"capaDensa.hpp"
+	"matrix.hpp"
+	<vector>
+	<functional>
+	"FuncionesPerdida.hpp"
+
+1792827571 d:\programacion\ia\ia-adam-llm\capadensa.hpp
+	<iostream>
+	<functional>
+	<cmath>
+	"matrix.hpp"
+
+1792827561 d:\programacion\ia\ia-adam-llm\matrix.hpp
+	<iostream>
+	<vector>
+	<random>
+	<stdexcept>
+	<iomanip>
+	<cmath>
+	<functional>
+	<fstream>
+	<omp.h>
+
+1792824705 d:\programacion\ia\ia-adam-llm\funcionesperdida.hpp
+	"matrix.hpp"
+	<cmath>
+	<algorithm>
+
+1792824693 d:\programacion\ia\ia-adam-llm\capaembedding.hpp
+	<iostream>
+	<vector>
+	<cmath>
+	"matrix.hpp"
+
+1792824580 d:\programacion\ia\ia-adam-llm\positionalencoding.hpp
+	<vector>
+	<cmath>
+	"matrix.hpp"
+
+1792747444 d:\programacion\ia\ia-adam-llm\capaatencion.hpp
+	<iostream>
+	<vector>
+	<cmath>
+	"matrix.hpp"
+
+1792829518 d:\programacion\ia\ia-adam-llm\bloquetransformer.hpp
+	<iostream>
+	"matrix.hpp"
+	"capaMultiHeadAtencion.hpp"
+	"capaDensa.hpp"
+	"LayerNorm.hpp"
+
+1792825136 d:\programacion\ia\ia-adam-llm\layernorm.hpp
+	<vector>
+	<cmath>
+	"matrix.hpp"
+
+1792829504 d:\programacion\ia\ia-adam-llm\capamultiheadatencion.hpp
+	<iostream>
+	<vector>
+	<cmath>
+	<algorithm>
+	"matrix.hpp"
+
+1792829548 d:\programacion\ia\ia-adam-llm\cetzmodelo.hpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<algorithm>
+	<cmath>
+	<random>
+	"matrix.hpp"
+	"capaEmbedding.hpp"
+	"PositionalEncoding.hpp"
+	"BloqueTransformer.hpp"
+	"LayerNorm.hpp"
+	"capaDensa.hpp"
+	"FuncionesPerdida.hpp"
+
+1792759492 d:\programacion\ia\ia-adam-llm\tokenizadorpalabras.hpp
+	<iostream>
+	<vector>
+	<string>
+	<unordered_map>
+	<sstream>
+	<algorithm>
+	<cctype>
+
+1792824580 d:\programacion\ia\ia-adam-llm\planificadortasaaprendizaje.hpp
+	<cmath>
+
+1792824580 d:\programacion\ia\ia-adam-llm\tokenizadorsubpalabras.hpp
+	<iostream>
+	<vector>
+	<string>
+	<unordered_map>
+	<map>
+	<fstream>
+	<sstream>
+	<algorithm>
+
