@@ -161,7 +161,25 @@ public:
         return lossAcumulada / static_cast<float>(batch.size());
     }
 
-    // Calcula y acumula el gradiente de la secuencia, retornando el Loss promedio
+    // Estructura para manejar lotes de datos
+    struct Muestra {
+        std::vector<size_t> entrada;
+        std::vector<size_t> objetivo;
+    };
+
+    // Calcula y acumula el gradiente de un lote (batch) de muestras, retornando el Loss promedio del lote
+    float trainBatchStep(const std::vector<Muestra>& batch) {
+        if (batch.empty()) return 0.0f;
+        float lossTotalBatch = 0.0f;
+
+        // Procesamos el batch. Para maximizar la velocidad en C++, 
+        // optimizamos la acumulación de gradientes en las capas internas.
+        for (const auto& muestra : batch) {
+            lossTotalBatch += trainStepAcumulativo(muestra.entrada, muestra.objetivo);
+        }
+
+        return lossTotalBatch / static_cast<float>(batch.size());
+    }
     float trainStepAcumulativo(const std::vector<size_t>& seqEntrada, const std::vector<size_t>& seqObjetivo) {
         size_t seqLen = seqEntrada.size();
         if (seqLen == 0) return 0.0f;
