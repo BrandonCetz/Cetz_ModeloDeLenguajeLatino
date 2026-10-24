@@ -97,6 +97,7 @@ public:
     }
 
     // Acumula gradientes para Mini-Batching
+    // Acumula gradientes para Mini-Batching optimizado con In-Place
     Matriz backward(const Matriz& gradienteSalida) {
         Matriz Delta;
 
@@ -110,16 +111,17 @@ public:
         Matriz dW = Delta.matmul(X.transpuesta());
         Matriz dX = W.transpuesta().matmul(Delta);
 
-        // Acumular gradientes de Pesos (W)
+        // Optimización: Acumulación In-Place paralela
         acum_dW.sumarInPlace(dW);
 
-        // Acumular gradientes de Sesgos (B) a lo largo del batch de tokens
+        // Acumular gradientes de Sesgos (B) optimizando el acceso a memoria
         for (size_t i = 0; i < B.filas(); ++i) {
             float g = 0.0f;
-            for (size_t col = 0; col < Delta.columnas(); ++col) {
-                g += Delta(i, col);
+            const float* delta_ptr = Delta.data();
+            size_t cols = Delta.columnas();
+            for (size_t col = 0; col < cols; ++col) {
+                g += delta_ptr[i * cols + col];
             }
-            B(i, 0); // Placeholder for logic check
             acum_dB(i, 0) += g;
         }
 
