@@ -34,13 +34,15 @@ public:
         // 1. Subcapa 1: Pre-LN + Atención Multicabezal + Conexión Residual
         xNorm1_cache = norm1.forward(X);
         Matriz atnOut = atencion.forward(xNorm1_cache);
-        res1_cache = X + atnOut;
+        res1_cache = X;
+        res1_cache.sumarInPlace(atnOut); // Optimizado: In-Place
 
         // 2. Subcapa 2: Pre-LN + Feed-Forward (ReLU -> Lineal) + Conexión Residual
         xNorm2_cache = norm2.forward(res1_cache);
         Matriz h = ffn1.forward(xNorm2_cache);
         Matriz ffnOut = ffn2.forward(h);
-        Matriz res2 = res1_cache + ffnOut;
+        Matriz res2 = res1_cache;
+        res2.sumarInPlace(ffnOut); // Optimizado: In-Place
 
         return res2;
     }
@@ -55,7 +57,8 @@ public:
         Matriz dRes1_via_ffn = norm2.backward(dNorm2);
 
         // 3. Gradiente total en el punto res1 (autopista residual directa + camino FFN)
-        Matriz dRes1 = gradSalida + dRes1_via_ffn;
+        Matriz dRes1 = gradSalida;
+        dRes1.sumarInPlace(dRes1_via_ffn); // Optimizado: In-Place
 
         // 4. Gradiente a través de la Atención
         Matriz dAtn = atencion.backward(dRes1);
@@ -64,7 +67,9 @@ public:
         Matriz dX_via_atn = norm1.backward(dAtn);
 
         // 6. Gradiente total en la entrada X (autopista residual directa + camino Atención)
-        return dRes1 + dX_via_atn;
+        Matriz dX = dRes1;
+        dX.sumarInPlace(dX_via_atn); // Optimizado: In-Place
+        return dX;
     }
 
     // Suma de cuadrados de gradientes de todas sus subcapas (para Gradient Clipping)
