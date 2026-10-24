@@ -156,28 +156,36 @@ int main() {
             float lossTotalEpoca = 0.0f;
             int totalMuestras = 0;
 
-            for (const auto& muestra : datasetCodificado) {
-                float pasoLoss = cetzModelo->trainStepAcumulativo(muestra.entrada, muestra.objetivo);
-                lossTotalEpoca += pasoLoss;
-                totalMuestras++;
-                contadorBatch++;
+        // --- IMPLEMENTACIÓN DE BATCHING REAL ---
+        vector<CetzModelo::Muestra> batchActual;
+        for (const auto& muestra : datasetCodificado) {
+            batchActual.push_back(muestra);
 
-                if (contadorBatch == static_cast<int>(batchSize)) {
-                    tasaActual = planificador.obtenerTasa(pasoActual);
-                    cetzModelo->actualizarPesos(tasaActual, t, batchSize, 1.0f); // Gradient Clipping
-                    t++;
-                    pasoActual++;
-                    contadorBatch = 0;
-                }
-            }
-
-            if (contadorBatch > 0) {
+            if (batchActual.size() == static_cast<size_t>(batchSize)) {
+                float pasoLoss = cetzModelo->trainBatchStep(batchActual);
+                lossTotalEpoca += pasoLoss * batchSize;
+                totalMuestras += batchActual.size();
+                
                 tasaActual = planificador.obtenerTasa(pasoActual);
-                cetzModelo->actualizarPesos(tasaActual, t, static_cast<float>(contadorBatch), 1.0f);
+                cetzModelo->actualizarPesos(tasaActual, t, batchSize, 1.0f);
+                
                 t++;
                 pasoActual++;
-                contadorBatch = 0;
+                batchActual.clear();
             }
+        }
+
+        if (!batchActual.empty()) {
+            float pasoLoss = cetzModelo->trainBatchStep(batchActual);
+            lossTotalEpoca += pasoLoss * batchActual.size();
+            totalMuestras += batchActual.size();
+            
+            tasaActual = planificador.obtenerTasa(pasoActual);
+            cetzModelo->actualizarPesos(tasaActual, t, static_cast<float>(batchActual.size()), 1.0f);
+            t++;
+            pasoActual++;
+        }
+
 
             float lossPromedio = (totalMuestras > 0) ? (lossTotalEpoca / static_cast<float>(totalMuestras)) : 0.0f;
             float perplejidad = std::exp((std::min)(lossPromedio, 20.0f));
