@@ -131,9 +131,9 @@ public:
         for (size_t pos = 0; pos < seqLen; ++pos) {
             Matriz vEmb = emb_.forward(seq[pos]);
             Matriz vPos = posEnc_.obtenerPosicion(pos);
-            Matriz vFinal = vEmb + vPos;
+            vEmb.sumarInPlace(vPos); // Optimizado: In-Place
             for (size_t d = 0; d < dimModel_; ++d) {
-                X(d, pos) = vFinal(d, 0);
+                X(d, pos) = vEmb(d, 0);
             }
         }
 
