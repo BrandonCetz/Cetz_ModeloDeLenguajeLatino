@@ -111,11 +111,7 @@ public:
         Matriz dX = W.transpuesta().matmul(Delta);
 
         // Acumular gradientes de Pesos (W)
-        for (size_t i = 0; i < W.filas(); ++i) {
-            for (size_t j = 0; j < W.columnas(); ++j) {
-                acum_dW(i, j) += dW(i, j);
-            }
-        }
+        acum_dW.sumarInPlace(dW);
 
         // Acumular gradientes de Sesgos (B) a lo largo del batch de tokens
         for (size_t i = 0; i < B.filas(); ++i) {
@@ -123,6 +119,7 @@ public:
             for (size_t col = 0; col < Delta.columnas(); ++col) {
                 g += Delta(i, col);
             }
+            B(i, 0); // Placeholder for logic check
             acum_dB(i, 0) += g;
         }
 
