@@ -136,11 +136,7 @@ public:
         Matriz dH_concat = Wo.transpuesta().matmul(gradSalida);
 
         // 1. Acumular gradientes de Wo
-        for (size_t i = 0; i < dimModel_; ++i) {
-            for (size_t j = 0; j < dimModel_; ++j) {
-                acum_dWo(i, j) += dWo(i, j);
-            }
-        }
+        acum_dWo.sumarInPlace(dWo);
 
         Matriz dQ_total(dimModel_, seqLen, 0.0f);
         Matriz dK_total(dimModel_, seqLen, 0.0f);
@@ -195,17 +191,15 @@ public:
         Matriz dWv = dV_total.matmul(X_cache.transpuesta());
 
         // 2. Acumular gradientes de Wq, Wk, Wv
-        for (size_t i = 0; i < dimModel_; ++i) {
-            for (size_t j = 0; j < dimModel_; ++j) {
-                acum_dWq(i, j) += dWq(i, j);
-                acum_dWk(i, j) += dWk(i, j);
-                acum_dWv(i, j) += dWv(i, j);
-            }
-        }
+        acum_dWq.sumarInPlace(dWq);
+        acum_dWk.sumarInPlace(dWk);
+        acum_dWv.sumarInPlace(dWv);
 
-        return Wq.transpuesta().matmul(dQ_total) +
-               Wk.transpuesta().matmul(dK_total) +
-               Wv.transpuesta().matmul(dV_total);
+        Matriz gradFinal = Wq.transpuesta().matmul(dQ_total);
+        gradFinal.sumarInPlace(Wk.transpuesta().matmul(dK_total));
+        gradFinal.sumarInPlace(Wv.transpuesta().matmul(dV_total));
+
+        return gradFinal;
     }
 
     // Calcula suma de cuadrados de gradientes acumulados promediados (para Gradient Clipping)
